@@ -43,7 +43,7 @@ def import_and_predict(image_data, model):
 
 
 if file is None:
-    st.text("Please upload an image file")
+    st.text("Please upload any  potato image file for predictions.\nIt must be an Early blight/ a late blight / a healthy potato image file. ")
 else:
     image = Image.open(file)
     st.image(image, use_column_width=True)
